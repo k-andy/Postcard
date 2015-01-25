@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var messageTextField: UITextField!
+    @IBOutlet weak var messageSendButton: UIButton!
+    @IBOutlet weak var nameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func sendMessage(sender: UIButton) {
+        nameLabel.text = nameTextField.text
+        messageSendButton.backgroundColor = .orangeColor()
+        nameLabel.hidden = false
+        messageTextField.text = ""
+        nameTextField.text = ""
+        messageTextField.resignFirstResponder()
+    }
 
 }
 

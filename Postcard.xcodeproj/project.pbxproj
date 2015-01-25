@@ -13,6 +13,8 @@
 		A14243EF1A758FA70057C52B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14243EE1A758FA70057C52B /* Images.xcassets */; };
 		A14243F21A758FA70057C52B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A14243F01A758FA70057C52B /* LaunchScreen.xib */; };
 		A14243FE1A758FA70057C52B /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14243FD1A758FA70057C52B /* PostcardTests.swift */; };
+		A14244081A7590FE0057C52B /* 96580.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A14244071A7590FE0057C52B /* 96580.jpg */; };
+		A142440A1A7591110057C52B /* metropolitan-wallpaper-3840x2400.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A14244091A7591110057C52B /* metropolitan-wallpaper-3840x2400.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A14243F71A758FA70057C52B /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14243FC1A758FA70057C52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14243FD1A758FA70057C52B /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		A14244071A7590FE0057C52B /* 96580.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 96580.jpg; sourceTree = "<group>"; };
+		A14244091A7591110057C52B /* metropolitan-wallpaper-3840x2400.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "metropolitan-wallpaper-3840x2400.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		A14243E51A758FA70057C52B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A14244091A7591110057C52B /* metropolitan-wallpaper-3840x2400.jpg */,
+				A14244071A7590FE0057C52B /* 96580.jpg */,
 				A14243E61A758FA70057C52B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14244081A7590FE0057C52B /* 96580.jpg in Resources */,
+				A142440A1A7591110057C52B /* metropolitan-wallpaper-3840x2400.jpg in Resources */,
 				A14243ED1A758FA70057C52B /* Main.storyboard in Resources */,
 				A14243F21A758FA70057C52B /* LaunchScreen.xib in Resources */,
 				A14243EF1A758FA70057C52B /* Images.xcassets in Resources */,
